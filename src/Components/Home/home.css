@@ -1,0 +1,134 @@
+.home__div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Gluten', cursive;
+}
+.gateway__div{
+    background-color:#f6ffcf;
+    font-family: 'Gluten', cursive;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+ 
+
+}
+@media screen and (max-width:800px) {
+    .gateway__div{
+        height: 110vh;
+    }
+    
+}
+.filter__div1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 400px;
+    height: 250px;
+    background-color: transparent;
+    box-shadow: 2px 3px 3px #ff7f51;
+    filter: blur(5px);
+
+}
+@media screen and (max-width:800px) {
+    .filter__div1{
+        width:180px;
+        height: 150px;
+        top: 5%;
+    }
+    
+}
+.svg__chat{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+@media screen and (max-width:800px) {
+    .svg__chat{
+        width:150px;
+        height: 150px;
+        left: 7%;
+    }
+    
+}
+
+.filter__div2{
+    position: absolute;
+   bottom: 10%;
+    right: 5%;
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 3px 3px #ff7f51;
+    filter: blur(5px);
+}
+
+@media screen and (max-width:800px) {
+    .filter__div2{
+        width:250px;
+        height: 200px;
+        bottom: 2%;
+    }
+    
+}
+.svg__msg{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+@media screen and (max-width:800px) {
+    .svg__msg{
+        width:150px;
+        height: 100px;
+       top: 75%;
+    }
+    
+}
+.gateway__input{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 10px;
+  
+    justify-content: space-evenly;
+    box-shadow: 2px 3px 3px rgb(212, 191, 191);
+}
+.gateway__header h2{
+   color: aqua;
+}
+.input__div{
+
+    width: 100%;
+}
+.input__div input{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Gluten', cursive;
+    font-size: 20px;
+   
+  
+}
+.gateway__btn{
+    width: 100%;
+}
+.gateway__btn button{
+    width: 100%;
+    padding: 5px;
+    font-family: 'Gluten', cursive;
+}
+.gateway__btn button:hover{
+    rotate: -2deg;
+}
+.gatewaySignoutBtn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 5px;
+    font-family: 'Gluten', cursive;
+}
