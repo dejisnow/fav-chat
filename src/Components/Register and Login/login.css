@@ -72,11 +72,13 @@
 }
 .login__header .slogan{
     font-size: 25px;
+    margin: 10px;
 }
 
 @media screen and (max-width:800px) {
     .login__header .slogan{
         font-size: 18px;
+       
     }
     
 }
@@ -99,7 +101,7 @@
 
 
 .signin__container{
-    border: 2px solid red;
+    border: 2px solid #ff7f51;
 
     padding: 10px 0;
     filter: blur(3px);
@@ -117,7 +119,7 @@
 @media screen and (max-width:800px) {
     .signin__container{
         top: 50%;
-        width: 350px;
+        width: 320px;
     }
     
 }
@@ -137,7 +139,7 @@
 @media screen and (max-width:800px) {
     .signin__main{
         top: 50%;
-        width: 350px;
+        width: 300px;
     }
     
 }

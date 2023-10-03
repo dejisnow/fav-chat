@@ -39,8 +39,8 @@ setUsername(userInfo.user.displayName)
       <div className='login__header'>
         <h1><span className='fav'>Fav</span><span>Chat</span></h1>
 
-    <p className='welcome__text'>Welcome to the Fav-chat where conversations come alive!</p>
-      <p className='slogan'> Connect <i class='fa fa-circle'></i> Share <i class='fa fa-circle'></i> Explore</p>
+    <p className='welcome__text'>Welcome to the <span style={{color:' #ff7f51'}}>Fav</span>  <span style={{color:'aqua'}}>chat </span> where conversations come alive!</p>
+      <p className='slogan'> <span style={{color:' #ff7f51'}}>  Connect </span><i class='fa fa-circle'></i>  <span style={{color:'aqua'}}>  Share </span> <i class='fa fa-circle'></i>  <span style={{color:'#ff7f51'}}> Explore</span></p>
         </div>
 
        

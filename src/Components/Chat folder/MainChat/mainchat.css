@@ -58,10 +58,12 @@ font-size: 30px;
    
 }
 .fav__title{
-    color: aqua;
+    color: #ff7f51;
+   
 }
 .fav__channel{
-    color: #ff7f51;
+ 
+    color: aqua;
 }
 .username{
     margin-bottom: 10px;
@@ -73,6 +75,14 @@ font-size: 30px;
     height: 50px;
     border-radius: 50%;
 }
+@media screen and (max-width:800px) {
+    .displayImg__div{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
 .online{
     width: 10px;
     height:10px;
@@ -80,6 +90,13 @@ font-size: 30px;
     background-color: greenyellow;
     position: absolute;
     top: 5%;
+}
+@media screen and (max-width:800px) {
+    .online{
+        width: 7px;
+    height:7px;
+    }
+    
 }
 .profile__img{
     object-fit: cover;
@@ -127,6 +144,7 @@ flex: 30%;
    
 }
 .chat__form button{
+    padding: 10px;
 flex: 10%;
 margin: 10px;
 margin-bottom: 0;
