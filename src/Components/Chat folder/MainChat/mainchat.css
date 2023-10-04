@@ -13,7 +13,7 @@
 }
 @media screen and (max-width:700px) {
     .mainchat__div{
-        height:950vh;
+        height:95vh;
     }
     
 }
@@ -156,7 +156,7 @@ width: 95%;
 }
 @media screen and (max-width:700px) {
     .chat__form{
-        width: 80%;
+        width: 70%;
     }
     
 }
