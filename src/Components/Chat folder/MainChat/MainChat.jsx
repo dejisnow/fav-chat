@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 export const MainChat = ({currentChannel,channelTitle }) => {
-  const chatDiv = document.querySelector('.chat__div')
+  const textDiv = document.querySelector('.text__div')
   const [chat , setChat] = useState('');
   const chatRef = collection(db,'chats');
   const [allChat,setAllchat] = useState([]);
@@ -45,6 +45,7 @@ const subscribe =  onSnapshot(queries,(shot)=>{
   },[users,allChat])
 
  async function handleSubmit(e){
+
     e.preventDefault()
     if(chat === '') return
     await addDoc(chatRef,
@@ -57,8 +58,10 @@ const subscribe =  onSnapshot(queries,(shot)=>{
       
 
       })
+     
       setChat('');
-      chatDiv.scrollTop = chatDiv.scrollHeight;
+      textDiv.scrollTop = textDiv.scrollHeight;
+    
       
     
 

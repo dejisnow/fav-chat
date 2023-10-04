@@ -141,11 +141,11 @@ width: 100%;
 } 
 .chat__form input{
     padding: 10px 0;
-    flex: 80%;
+    flex: 70%;
     padding: 15px;
     font-size: 20px;
     height: 100%;
-    margin: 0px 15px;
+    margin: 0px 5px;
     
    
 }
@@ -158,9 +158,9 @@ width: 100%;
 }
 .chat__form button{
     padding: 10px;
-flex: 20%;
-margin: 0px 15px;
-margin-bottom: 0;
+flex: 30%;
+margin: 0px 5px;
+
 max-height: 50px;
 max-width: 50px;
 font-weight: 600;
