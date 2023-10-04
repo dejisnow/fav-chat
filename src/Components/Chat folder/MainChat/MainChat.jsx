@@ -118,7 +118,7 @@ const subscribe =  onSnapshot(queries,(shot)=>{
           
         </form> 
         
-        <button className='leaveBtn' onClick={()=> navigate(0)}>Leave Room</button>
+        <button className='leaveBtn' onClick={()=> navigate(0)}>Leave Channel</button>
 
 
       </div>
