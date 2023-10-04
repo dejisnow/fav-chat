@@ -5,10 +5,17 @@
     background-color: #f6ffcf;
     width: 100%;
     height:100vh;
+
   
  
     font-family: 'Gluten', cursive;
 
+}
+@media screen and (max-width:700px) {
+    .mainchat__div{
+        height:950vh;
+    }
+    
 }
 
 .mainchat__div h2{
@@ -129,7 +136,7 @@ font-size: 30px;
     
 }
 .chat__form{
- margin: 30px 0;
+
  display: flex;
  gap: 10px;
 
@@ -140,6 +147,13 @@ width: 95%;
 
 
 } 
+
+@media screen and (max-width:800px) {
+    .chat__form{
+        width: 90%;
+    }
+    
+}
 .chat__form input{
     padding: 10px 0;
     flex: 70%;
