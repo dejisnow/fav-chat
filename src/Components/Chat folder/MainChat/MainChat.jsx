@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 export const MainChat = ({currentChannel,channelTitle }) => {
-  const textDiv = document.querySelector('.text__div')
+  const chatDiv = document.querySelector('.chat__div')
   const [chat , setChat] = useState('');
   const chatRef = collection(db,'chats');
   const [allChat,setAllchat] = useState([]);
@@ -58,7 +58,8 @@ const subscribe =  onSnapshot(queries,(shot)=>{
 
       })
       setChat('');
-      textDiv.scrollTop = textDiv.scrollHeight;
+      chatDiv.scrollTop = chatDiv.scrollHeight;
+      
     
 
   }
