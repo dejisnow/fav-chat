@@ -215,8 +215,8 @@ form .join__btn__div .join__btn{
 }
 @media screen and (max-width:650px) {
     .login__svg{
-       width: 200px;
-       height: 200px;
+       width: 150px;
+       height: 150px;
        bottom: 10%;
     }
     

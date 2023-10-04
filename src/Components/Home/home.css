@@ -45,7 +45,7 @@
 }
 .svg__chat{
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 2%;
 }
 @media screen and (max-width:800px) {
@@ -70,22 +70,22 @@
 
 @media screen and (max-width:800px) {
     .filter__div2{
-        width:250px;
-        height: 200px;
+        width:180px;
+        height: 150px;
         bottom: 2%;
     }
     
 }
 .svg__msg{
     position: absolute;
-    top: 35%;
-    right: 5%;
+    bottom: 10%;
+    right: 2%;
 }
 @media screen and (max-width:800px) {
     .svg__msg{
         width:150px;
         height: 100px;
-       top: 75%;
+       bottom: 5%;
     }
     
 }
