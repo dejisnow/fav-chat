@@ -136,7 +136,7 @@ font-size: 30px;
 
  display: flex;
  gap: 10px;
-flex-direction: column;
+
 
 
 width: 95%;
@@ -150,6 +150,7 @@ width: 95%;
 @media screen and (max-width:800px) {
     .chat__form{
         width: 95%;
+        flex-direction: column;
     }
     
 }
