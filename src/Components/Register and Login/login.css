@@ -321,7 +321,7 @@ input{
     top: 5%;
     left: 1%;
     width: 500px;
-    filter:blur(100px);
+    filter:blur(185px);
     height:500px;
 }
 @media screen and (max-width:800px) {
@@ -337,7 +337,7 @@ input{
     right: 1%;
     width: 500px;
     height: 500px;
-    filter:blur(100px);
+    filter:blur(185px);
 }
 @media screen and (max-width:800px) {
     .blob__two{
